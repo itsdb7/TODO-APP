@@ -1,0 +1,37 @@
+.inputTask{
+     margin-top: 50px;
+      margin-bottom: 50px;
+       border: none;
+         outline: none;
+          background-color:#ffffff;
+          
+} 
+.msg{
+    font-size: 16px;
+    margin-top: 5px;
+    text-transform: capitalize;
+    text-align:center;
+   
+}
+.textBox{
+    width: 50%;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: .5px solid #000;
+    outline: none;
+    padding: 0px 10px;
+    font-family: 'Bungee Shade', cursive;
+    font-family: 'Iceland', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    text-transform: capitalize;
+
+    font-size: 18px;
+    word-spacing: 1px;
+    -webkit-box-shadow: 0 6px 6px -8px black;
+    -moz-box-shadow: 0 6px 6px -8px black;
+         box-shadow: 0 6px 6px -8px black;
+
+ 
+    
+}

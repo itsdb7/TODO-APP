@@ -1,0 +1,86 @@
+.task{
+    margin-top: 30px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.box{
+    margin:10px 320px;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    /* cursor: pointer; */
+    text-align: center;
+    padding: 8px 5px;
+    word-spacing: 1px;
+    font-family: 'Bungee Shade', cursive;
+    font-family: 'Iceland', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+      -webkit-box-shadow: 0 6px 5px -8px black;
+         -moz-box-shadow: 0 6px 5px -8px black;
+              box-shadow: 0 6px 5px -8px black;
+  
+     
+
+}
+.trash{
+  color: #f0f0f0;
+  float: right;
+  font-size: 18px;
+  margin: 4px 10px;
+  cursor: pointer;
+
+}
+.trophy{
+  float: left;
+  font-size: 20px;
+  margin: 2px 10px;
+}
+.box:hover{
+  background-color: aliceblue;
+  
+}
+.box:hover .trash { color:#000; }
+.box:hover .trash:hover { color:red; }
+.box:hover .trophy:hover { color:green; }
+
+.trash:hover{
+  color:red;
+}
+
+.center{
+  position:relative;
+  top: 30px;
+  font-family: 'Bungee Shade', cursive;
+  font-family: 'Iceland', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  
+}
+.clipboard{
+  font-size: 40px;
+}
+.empty{
+  font-family: 'Bungee Shade', cursive;
+  font-family: 'Iceland', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+@media screen and (max-width: 1000px) {
+    .box {
+      margin: 10px 10px;
+      border-radius: 3px;
+      background-color:#f0f0f0;
+      border: 1px solid #000;
+      cursor: pointer;
+      text-align: center;
+      word-spacing: 1px;
+      font-family: 'Bungee Shade', cursive;
+      font-family: 'Iceland', cursive;
+      font-family: 'Roboto Condensed', sans-serif;
+        -webkit-box-shadow: 0 6px 5px -8px black;
+           -moz-box-shadow: 0 6px 5px -8px black;
+                box-shadow: 0 6px 5px -8px black;
+    
+      }
+  }
