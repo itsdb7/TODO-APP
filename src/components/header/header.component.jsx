@@ -15,7 +15,7 @@ const Header = ({currentUser}) => {
                 <h3 className='title'>PROXY-CIRCUIT <span className='logo'>todo app</span></h3> 
            
               { currentUser ? 
-                 <button className='button' onClick={()=> auth.signOut()}>sign out</button> : <button className='button' onClick={handleShow}>Sign in</button>
+                 <button className='button' onClick={()=> auth.signOut()}>sign out</button> : <button className='button' onClick={handleShow}></button>
                  }
 
    
